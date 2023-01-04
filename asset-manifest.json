@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/attika7ifbbpro/static/css/main.68839cbb.css",
+    "main.js": "/attika7ifbbpro/static/js/main.cba3e5c4.js",
+    "static/js/787.149827e7.chunk.js": "/attika7ifbbpro/static/js/787.149827e7.chunk.js",
+    "index.html": "/attika7ifbbpro/index.html",
+    "main.68839cbb.css.map": "/attika7ifbbpro/static/css/main.68839cbb.css.map",
+    "main.cba3e5c4.js.map": "/attika7ifbbpro/static/js/main.cba3e5c4.js.map",
+    "787.149827e7.chunk.js.map": "/attika7ifbbpro/static/js/787.149827e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68839cbb.css",
+    "static/js/main.cba3e5c4.js"
+  ]
+}
