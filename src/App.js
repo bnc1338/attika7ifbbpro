@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Container from './Container';
+import Navbar from './Navbar/Navbar';
+
+// #F5F7F7 -szovegek
+// #0049FF -szovegek2
+
+// #141824 -hatterek
+// #FFB600 -szoveg hatterek
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Container />
     </div>
   );
 }
