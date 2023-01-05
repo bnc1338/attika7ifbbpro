@@ -1,5 +1,5 @@
 {
-  "homepage": "https://bnc1338.github.io/attika7",
+  "homepage": "https://bnc1338.github.io/attika7ifbbpro",
   "name": "attika",
   "version": "0.1.0",
   "private": true,
@@ -26,6 +26,7 @@
       "react-app/jest"
     ]
   },
+  
   "browserslist": {
     "production": [
       ">0.2%",

@@ -21,14 +21,6 @@
     transition: background 0.5s;
 }
 
-.nav-container > .backg-1{
-    background-color: rgba(255, 183, 0, 0.8);
-}
-
-.nav-container > .backg-2{
-    background-color: rgba(255, 183, 0, 0.5);
-}
-
 .nav-container > .nav-logo{
     font-weight: 700;
     font-size: 30px;
@@ -90,6 +82,7 @@
     }
     
     .nav-container{
+        height: 50px;
         transition: all 500ms ease;
     }
 
@@ -182,13 +175,17 @@
     }
 
     .nav-container.open{
-        height: 180px;    
+        height: 150px;    
         width: 75vw;
         align-items: flex-start;
     }
 
     .nav-container.closed{
-        height: 60px;
+        height: 50px;
+    }
+
+    .nav-container.closed > .nav-items a{
+        display: none;
     }
 
     .nav-container.open > .nav-logo{

@@ -1,8 +1,9 @@
 .About{
-    height: 100vh;
-    background: url(https://th.bing.com/th/id/R.1d741c452ac23e5e44a6b23071be1370?rik=Ggezoc4WcfsQGQ&pid=ImgRaw&r=0) no-repeat center center fixed; 
+    height: 85vh;
+    background: url(https://th.bing.com/th/id/R.1d741c452ac23e5e44a6b23071be1370?rik=Ggezoc4WcfsQGQ&pid=ImgRaw&r=0) no-repeat center center; 
     background-size: cover;
-
+    border-bottom: solid white 5px;
+    box-shadow: -10px -10px 80px -4px rgba(255, 255, 255, 0.2);
 }
 .content{
     display: flex;

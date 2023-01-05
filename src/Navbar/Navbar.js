@@ -23,19 +23,22 @@ const Navbar = ()=>{
             <div id='navArea' className={`nav-container ${isOpen && "open"} ${isClosed && "closed"}`}>
                 <span className='nav-logo'>logo</span>
                 <div className={`nav-items ${isOpen && "open"}`}>
-                    <a href='/about'>About Me</a>
-                    <a href='/programs'>Programs</a>
-                    <a href='/contact'>Contact me!</a>
+                    <a href='https://bnc1338.github.io/attika7ifbbpro/'>About Me</a>
+                    <a href='https://bnc1338.github.io/attika7ifbbpro/'>Programs</a>
+                    <a href='https://bnc1338.github.io/attika7ifbbpro/'>Contact me!</a>
                 </div>
-                <a href='/#'>
+                <a href='https://bnc1338.github.io/attika7ifbbpro/'>
                     <img src={Image} alt="" className='navbar-img'/>
                 </a>
                 <div className={`nav-toggle ${isOpen && "open"}`}
                 onClick={() => { 
-                    setIsClosed(!isClosed);
                     setTimeout(function(){
                     setIsOpen(!isOpen);
-                    }, 300); }}>
+                    }, 300);
+                    setTimeout(function(){
+                        setIsClosed(!isClosed);
+                        }, 100);
+                    }}>
                 <div className='bar no-scroll'></div>
                 </div>
             </div>
