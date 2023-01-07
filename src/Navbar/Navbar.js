@@ -11,7 +11,7 @@ const Navbar = ()=>{
         const scrolly=window.scrollY;
 
         if(scrolly>0){
-            navbar.style.backgroundColor="rgba(255, 255, 255, 0.6)";
+            navbar.style.backgroundColor="rgba(255, 255, 255, 0.7)";
           }
           else if(scrolly===0){
             navbar.style.backgroundColor="rgba(255, 255, 255, 0.9)";
