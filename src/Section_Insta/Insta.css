@@ -63,6 +63,14 @@
     }
 }
 
+@media (max-width:500px){
+    .Insta >.container > .video{
+        margin:50px;
+        width: 405px;
+        height: 228px;
+    }
+}
+
 
 
 
