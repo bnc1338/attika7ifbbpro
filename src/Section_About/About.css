@@ -5,6 +5,7 @@
     border-bottom: solid white 5px;
     box-shadow: -10px -10px 80px -4px rgba(255, 255, 255, 0.2);
 }
+
 .content{
     display: flex;
     flex-direction: column;

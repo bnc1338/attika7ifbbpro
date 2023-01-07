@@ -1,3 +1,70 @@
 .Insta{
     height: 75vw;
 }
+
+.Insta >.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin:auto;
+}
+
+.Insta >.container > .video{
+    margin:70px;
+    width: 905px;
+    height: 509px;
+    box-shadow:0 0 30px 10px #00000036;
+}
+
+@media (max-width:1300px){
+    .Insta >.container > .video{
+        width: 905px;
+        height: 509px;
+    }
+}
+
+@media (max-width:1100px){
+    .Insta >.container > .video{
+        width: 701px;
+        height: 394px;
+    }
+}
+
+@media (max-width:900px){
+    .Insta >.container > .video{
+        width: 677px;
+        height: 381px;
+    }
+}
+
+@media (max-width:800px){
+    .Insta >.container > .video{
+        width: 640px;
+        height: 360px;
+    }
+}
+
+@media (max-width:700px){
+    .Insta >.container > .video{
+        margin:50px;
+        width: 572px;
+        height: 322px;
+    }
+}
+
+@media (max-width:600px){
+    .Insta >.container > .video{
+        margin:50px;
+        width: 496px;
+        height: 279px;
+    }
+}
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import Image from '../Icons/PinPiros.png'
-
+import logoSeven from '../Icons/logo-seven.png';
 
 const Navbar = ()=>{
     const [isOpen, setIsOpen] = useState(false);
@@ -11,20 +11,22 @@ const Navbar = ()=>{
         const scrolly=window.scrollY;
 
         if(scrolly>0){
-            navbar.style.backgroundColor="rgb(255, 182, 0,0.4)";
+            navbar.style.backgroundColor="rgba(255, 255, 255, 0.6)";
           }
           else if(scrolly===0){
-            navbar.style.backgroundColor="rgb(255, 182, 0,0.7)";
+            navbar.style.backgroundColor="rgba(255, 255, 255, 0.9)";
           }
       });
 
     return (
         <div className="Navbar">
             <div id='navArea' className={`nav-container ${isOpen && "open"} ${isClosed && "closed"}`}>
-                <span className='nav-logo'>logo</span>
+                <div className='nav-logo'>
+                    <img src={logoSeven} alt="" width={"100px"} height={"auto"}/>    
+                </div>
                 <div className={`nav-items ${isOpen && "open"}`}>
-                    <a href='https://bnc1338.github.io/attika7ifbbpro/'>About Me</a>
-                    <a href='https://bnc1338.github.io/attika7ifbbpro/'>Programs</a>
+                    <a href='/about' >About Me</a>
+                    <a href='/insta'>Programs</a>
                     <a href='https://bnc1338.github.io/attika7ifbbpro/'>Contact me!</a>
                 </div>
                 <a href='https://bnc1338.github.io/attika7ifbbpro/'>
@@ -37,7 +39,7 @@ const Navbar = ()=>{
                     }, 300);
                     setTimeout(function(){
                         setIsClosed(!isClosed);
-                        }, 100);
+                    }, 100);
                     }}>
                 <div className='bar no-scroll'></div>
                 </div>
