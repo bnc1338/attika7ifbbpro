@@ -71,6 +71,22 @@
     }
 }
 
+@media (max-width:400px){
+    .Insta >.container > .video{
+        margin:50px;
+        width: 314px;
+        height: 176px;
+    }
+}
+
+@media (max-width:350px){
+    .Insta >.container > .video{
+        margin:50px;
+        width: 256px;
+        height: 144px;
+    }
+}
+
 
 
 
