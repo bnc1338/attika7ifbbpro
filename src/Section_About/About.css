@@ -2,8 +2,18 @@
     height: 85vh;
     background: url(https://th.bing.com/th/id/R.1d741c452ac23e5e44a6b23071be1370?rik=Ggezoc4WcfsQGQ&pid=ImgRaw&r=0) no-repeat center center; 
     background-size: cover;
-    border-bottom: solid white 5px;
-    box-shadow: -10px -10px 80px -4px rgba(255, 255, 255, 0.2);
+    -webkit-animation: glowing 3s ease-in-out infinite alternate;
+    -moz-animation: glowing 0.75s ease-in-out infinite alternate;
+    animation: glowing 3s ease-in-out infinite alternate;
+}
+
+@keyframes glowing {
+  from {
+    box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #6d5a2a, 0 0 10px #6d5a2a, 0 0 12px #6d5a2a, 0 0 15px #6d5a2a, 0 0 35px #6d5a2a;
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 7px #FFB600, 0 0 10px #FFB600, 0 0 25px #FFB600, 0 0 15px #FFB600, 0 0 17px #FFB600, 0 0 40px #FFB600;
+  }
 }
 
 .content{

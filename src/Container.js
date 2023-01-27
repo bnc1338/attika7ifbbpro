@@ -1,14 +1,15 @@
 import React from "react";
 import './Container.css';
 import About from "./Section_About/About";
-import Insta from "./Section_Insta/Insta";
-import { Route } from 'react-router-dom';
+import Video from "./Section_Video/Video";
+import Products from "./Section_Products/Products";
 
 const Container = ()=>{
     return (
         <div className="Container">
             <About />
-            <Insta />
+            <Video />
+            <Products />
         </div>
     );
 }

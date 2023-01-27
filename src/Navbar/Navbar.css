@@ -3,11 +3,12 @@
     position: sticky;
     top: 0px;
     height: 0;
+    z-index: 1000;
 }
 
 .nav-container{
     overflow: hidden;
-    height:75px;
+    height:80px;
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -16,13 +17,15 @@
     margin: auto;
     backdrop-filter: blur(3px);
     transition: background 0.5s;
+    text-transform: uppercase;
+    flex-wrap: nowrap;
 }
 
 .nav-container > .nav-logo{
     font-weight: 700;
     font-size: 30px;
     margin: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
     color:#F5F7F7;
     justify-self: left;
 }
@@ -42,7 +45,7 @@
 .nav-container > .nav-items > a {
     color: #000000;
     font-size:17px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
     position: relative;
     margin: 20px;
@@ -62,7 +65,7 @@
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: white;
+    background-color: black;
     transition: 1s;
     transform: ease-in 1s;
 }
