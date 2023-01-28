@@ -6,11 +6,11 @@ const About = () =>{
         <div className="About">
             <div className="content">
                 <div className="text">
-                    <p> At erat pellentesque adipiscing commodo elit at imperdiet dui accumsan.
+                    <p> Attika vagyok a hegyről,
                     </p>
-                    <p> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <p> Attika vagyok a hegyről, beverem egyből
                     </p>
-                    <p> Iaculis eu non diam phasellus vestibulum lorem sed.
+                    <p> Attika vagyok a hegyről,
                     </p>
                 </div>
                 <div className="text2">
