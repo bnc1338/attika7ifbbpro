@@ -2,112 +2,20 @@
  "products":[
 {
     "Id": 1,
-    "Titile": "cim1",
-    "Price": 24.99
+    "Titile": "Életmódváltás",
+    "Description":"Személyre szabott étrend",
+    "Price": 19.99
 },
 {
     "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
+    "Titile": "Fitness",
+    "Description":"Személyre szabott edzésterv és étrend",
+    "Price": 39.99
 },
 {
     "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
-    "Price": 29.99
-},
-{
-    "Id": 2,
-    "Titile": "cim2",
+    "Titile": "Fitness2",
+    "Description":"Személyre szabott edzésterv",
     "Price": 29.99
 }
 ]

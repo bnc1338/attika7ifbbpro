@@ -11,6 +11,7 @@ class ProductComponent extends Component {
             {this.props.Id}<br/>
             {this.props.Title} <br/>
             {this.props.Price}
+            {this.props.Description}
         </div>
       );
     }

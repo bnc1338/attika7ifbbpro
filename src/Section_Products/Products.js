@@ -14,7 +14,7 @@ class Products extends Component {
           <div className="container-products">
                 {
                     products.products.map((item,i)=>(
-                      <div key={item.Id}><ProductComponent Id={item.Id} Title={item.Titile} Price={item.Price}/></div>
+                      <div key={item.Id}><ProductComponent Id={item.Id} Title={item.Titile} Price={item.Price} Description={item.Description}/></div>
                     ))
                  }
          </div>
