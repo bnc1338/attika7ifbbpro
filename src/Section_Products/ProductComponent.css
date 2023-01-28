@@ -1,7 +1,8 @@
 .container-box{
-    background-color: pink;
+    background-color: #FFB600;
     border: 1px solid black;
-    width:100px;
+    width: 200px;
     height: 200px;
-    margin:5px;
+    margin:20px;
+    border-radius: 10px;
 }

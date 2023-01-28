@@ -12,14 +12,11 @@ class Products extends Component {
       const { enterCount, leaveCount } = this.props;
       return (
           <div className="container-products">
-             <ul>
                 {
                     products.products.map((item,i)=>(
-                        
-                            <li key={item.Id}><ProductComponent Id={item.Id} Title={item.Titile} Price={item.Price}/></li>
+                      <div key={item.Id}><ProductComponent Id={item.Id} Title={item.Titile} Price={item.Price}/></div>
                     ))
                  }
-             </ul>
          </div>
       );
     }
