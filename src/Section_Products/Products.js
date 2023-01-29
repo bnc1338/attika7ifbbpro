@@ -14,6 +14,9 @@ class Products extends Component {
           <h1 className={enterCount>leaveCount? "anim" : ""}>
             Reach your fitness goals!
           </h1>
+          <h3>
+          With my deep knowledge
+          </h3>
           <div className="container-products">
                 {
                    PRODUCTS && PRODUCTS.map((item,i)=>(

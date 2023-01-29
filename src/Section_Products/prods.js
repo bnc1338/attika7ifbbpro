@@ -24,6 +24,7 @@ const PRODS = [
         "Price": 29.99,
         "Image": img2
     }
+    
 ];
 
 export default PRODS;
