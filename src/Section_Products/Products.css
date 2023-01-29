@@ -1,3 +1,19 @@
+.Products{
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color:#000000;
+    transition: color ease 3s;
+    margin:10%;
+    font-size: 50px;
+}
+
+h1.anim{
+    color: white;
+}
+
 .container-products{
     display: flex;
     flex-direction: row;
@@ -8,4 +24,10 @@
 
 ul{
     list-style: none;
+}
+
+@media (max-width:600px){
+    h1{
+        font-size: 25px;
+    }
 }
