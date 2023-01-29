@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/attika7ifbbpro/static/css/main.efeffa19.css",
+    "main.css": "/attika7ifbbpro/static/css/main.f34f399b.css",
     "main.js": "/attika7ifbbpro/static/js/main.e012fc8c.js",
     "static/js/787.149827e7.chunk.js": "/attika7ifbbpro/static/js/787.149827e7.chunk.js",
     "static/media/attikaPoz2.png": "/attika7ifbbpro/static/media/attikaPoz2.5284e35ccf4664179756.png",
@@ -8,12 +8,12 @@
     "static/media/attikaPoz.jpg": "/attika7ifbbpro/static/media/attikaPoz.977fd37ab5b5bac838be.jpg",
     "static/media/logo-seven.png": "/attika7ifbbpro/static/media/logo-seven.7f7520946e2b9f0bfc85.png",
     "index.html": "/attika7ifbbpro/index.html",
-    "main.efeffa19.css.map": "/attika7ifbbpro/static/css/main.efeffa19.css.map",
+    "main.f34f399b.css.map": "/attika7ifbbpro/static/css/main.f34f399b.css.map",
     "main.e012fc8c.js.map": "/attika7ifbbpro/static/js/main.e012fc8c.js.map",
     "787.149827e7.chunk.js.map": "/attika7ifbbpro/static/js/787.149827e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efeffa19.css",
+    "static/css/main.f34f399b.css",
     "static/js/main.e012fc8c.js"
   ]
 }
