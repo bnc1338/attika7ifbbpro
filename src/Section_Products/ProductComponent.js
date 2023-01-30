@@ -14,7 +14,11 @@ class ProductComponent extends Component {
               <h5>{this.props.Title}</h5>
               <div className='box-inner'>
                 <p>{this.props.Description}</p>
+                <div className='cart-bu`tton'>
+                <p >ADD TO CART</p>
               </div>
+              </div>
+              
             </div>
         </div>
       );

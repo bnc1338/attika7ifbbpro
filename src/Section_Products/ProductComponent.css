@@ -27,6 +27,7 @@
     justify-content: center;
     transition: ease 0.1s;  
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 h5{
@@ -36,18 +37,28 @@ h5{
 
 
 .box-end:hover{
-    height: 60px;
+    height: 65px;
 }
 
 .box-inner{
     font-weight: 100;
     font-size: 13px;
-    display: none;
+    display:none;
 }
 
 .box-end:hover > .box-inner{
     height: 60px;
-    display:contents;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:50px;
+}
+
+.cart-button{
+    width: 100%;
+    color:white;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 0px 0px 6px 6px;
 }
 
 @media (max-width:700px) {
@@ -56,10 +67,17 @@ h5{
         height: 290px;
     }
     .box-end{
-        height: 60px;
+        height: 65px;
     }
     .box-end> .box-inner{
         height: 60px;
         display:contents;
+    }
+    .cart-button{
+    width: 100%;
+    color:white;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 0px 0px 6px 6px;
     }
 }
