@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/attika7ifbbpro/static/css/main.e0241ca9.css",
-    "main.js": "/attika7ifbbpro/static/js/main.6530d545.js",
+    "main.css": "/attika7ifbbpro/static/css/main.ad758c50.css",
+    "main.js": "/attika7ifbbpro/static/js/main.9e9cad92.js",
     "static/js/787.149827e7.chunk.js": "/attika7ifbbpro/static/js/787.149827e7.chunk.js",
     "static/media/attikaPoz2.png": "/attika7ifbbpro/static/media/attikaPoz2.5284e35ccf4664179756.png",
     "static/media/attikaPoz3.png": "/attika7ifbbpro/static/media/attikaPoz3.05f332b987b0dd4aabca.png",
     "static/media/attikaPoz.jpg": "/attika7ifbbpro/static/media/attikaPoz.977fd37ab5b5bac838be.jpg",
     "static/media/logo-seven.png": "/attika7ifbbpro/static/media/logo-seven.7f7520946e2b9f0bfc85.png",
     "index.html": "/attika7ifbbpro/index.html",
-    "main.e0241ca9.css.map": "/attika7ifbbpro/static/css/main.e0241ca9.css.map",
-    "main.6530d545.js.map": "/attika7ifbbpro/static/js/main.6530d545.js.map",
+    "main.ad758c50.css.map": "/attika7ifbbpro/static/css/main.ad758c50.css.map",
+    "main.9e9cad92.js.map": "/attika7ifbbpro/static/js/main.9e9cad92.js.map",
     "787.149827e7.chunk.js.map": "/attika7ifbbpro/static/js/787.149827e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0241ca9.css",
-    "static/js/main.6530d545.js"
+    "static/css/main.ad758c50.css",
+    "static/js/main.9e9cad92.js"
   ]
 }
