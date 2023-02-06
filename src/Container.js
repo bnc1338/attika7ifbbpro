@@ -3,6 +3,7 @@ import './Container.css';
 import About from "./Section_About/About";
 import Video from "./Section_Video/Video";
 import Products from "./Section_Products/Products";
+import Bottom from "./Section_Bottom/Bottom";
 
 const Container = ()=>{
     return (
@@ -10,6 +11,7 @@ const Container = ()=>{
             <About />
             <Video />
             <Products />
+            <Bottom />
         </div>
     );
 }
