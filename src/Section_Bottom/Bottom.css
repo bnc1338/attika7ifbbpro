@@ -91,6 +91,10 @@
 
 @media (max-width:600px){
     .subscribtion-panel{
-        width: 80%;
+        width: 100%;
+    }
+    .container-bottom{
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
 }
