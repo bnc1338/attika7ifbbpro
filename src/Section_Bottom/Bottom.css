@@ -88,3 +88,9 @@
     margin-top: 1vh;
     margin-right:  10px;
 }
+
+@media (max-width:600px){
+    .subscribtion-panel{
+        width: 80%;
+    }
+}
