@@ -3,6 +3,7 @@ import handleViewport from 'react-in-viewport';
 import "./Bottom.css";
 import instaicon from '../Icons/insta-icon.png';
 import ytbicon from '../Icons/youtube-icon.png';
+import attiIcon from '../Icons/logo-black-white.png';
 
 class Bottom extends Component {
     render() {
@@ -27,7 +28,10 @@ class Bottom extends Component {
                 <img src={instaicon} alt='instaicon'></img>
                 <img src={ytbicon} alt='ytbicon'></img>
                 </div>
-                
+                <div className='copyright-div'>
+                <p>© Copyright Jankó Attila 2023</p>
+                <img src={attiIcon} alt='attiIcon'></img>
+                </div>
              </div>
         </div>
       );
