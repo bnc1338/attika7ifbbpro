@@ -35,8 +35,7 @@ h5{
     margin-top:4px;
 }
 
-
-.box-end:hover{
+.box-end:hover {
     height: 65px;
 }
 
@@ -54,11 +53,17 @@ h5{
 }
 
 .cart-button{
+    opacity: 0;
+    transition: opacity 0.15s ease;
     width: 100%;
     color:white;
     text-decoration: none;
     background-color: red;
     border-radius: 0px 0px 6px 6px;
+}
+
+.box-end:hover > .box-inner:hover >.cart-button{
+   opacity: 1;
 }
 
 @media (max-width:700px) {
@@ -73,7 +78,9 @@ h5{
         height: 60px;
         display:contents;
     }
+
     .cart-button{
+    opacity: 1;
     width: 100%;
     color:white;
     text-decoration: none;

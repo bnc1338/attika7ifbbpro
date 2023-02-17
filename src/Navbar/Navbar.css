@@ -8,7 +8,7 @@
 
 .nav-container{
     overflow: hidden;
-    height:80px;
+    height:74px;
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -19,6 +19,7 @@
     transition: background 0.5s;
     text-transform: uppercase;
     flex-wrap: nowrap;
+    border-bottom: #808080a8 1px solid;
 }
 
 .nav-container > .nav-logo{
@@ -37,15 +38,15 @@
     height: auto;
 }
 
-.nav-container > .nav-items >{
+.nav-container > .nav-items{
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    font-size: 14px;
 }
 
 .nav-container > .nav-items > a {
     color: #000000;
-    font-size:17px;
-    font-weight: 500;
     text-decoration: none;
     position: relative;
     margin: 20px;
@@ -90,6 +91,7 @@
     .nav-container{
         height: 60px;
         transition: all 0.4s ease;
+        background-color:  white !important;
     }
 
     .nav-container > .nav-items{
@@ -136,14 +138,14 @@
         position: relative;
         width: 32px;
         height: 2px;
-        background-color: white;
+        background-color: black;
     }
 
     .nav-toggle > .bar::before, .nav-toggle> .bar::after{
         content: "";
         position: absolute;
         height: 2px;
-        background-color: white;
+        background-color: black;
         border-radius: 2px;
         transform: all 0.45s ease-in-out;
     }
@@ -176,8 +178,9 @@
     }
 
     .nav-container.open{
+        background-color: white;
         height: 240px;    
-        align-items: flex-start;
+        align-items: flex-start;  
     }
 
     .nav-container.closed{

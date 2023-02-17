@@ -5,14 +5,15 @@
     -webkit-animation: glowing 3s ease-in-out infinite alternate;
     -moz-animation: glowing 0.75s ease-in-out infinite alternate;
     animation: glowing 3s ease-in-out infinite alternate;
+    border: 1px solid #808080a8;
 }
 
 @keyframes glowing {
   from {
-    box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #6d5a2a, 0 0 10px #6d5a2a, 0 0 12px #6d5a2a, 0 0 15px #6d5a2a, 0 0 35px #6d5a2a;
+    box-shadow: 0 0 2px #fff, 0 0 5px #808080a8, 0 0 7px #808080a8, 0 0 10px #808080a8, 0 0 12px #808080a8, 0 0 15px #808080a8, 0 0 35px #808080a8;
   }
   to {
-    box-shadow: 0 0 5px #fff, 0 0 7px #FFB600, 0 0 10px #FFB600, 0 0 25px #FFB600, 0 0 15px #FFB600, 0 0 17px #FFB600, 0 0 40px #FFB600;
+    box-shadow: 0 0 5px #fff, 0 0 7px #808080f8, 0 0 10px #808080f8, 0 0 25px #808080f8, 0 0 15px #808080f8, 0 0 17px #808080f8, 0 0 40px #808080f8;
   }
 }
 

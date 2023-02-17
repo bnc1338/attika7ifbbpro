@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import handleViewport from 'react-in-viewport';
 import "./Video.css";
 import "../MainCSS.css";
-import "../MainJS";
 
 
 class Video extends Component {
@@ -11,7 +10,7 @@ class Video extends Component {
       return (
         <div className="Insta">
              <div className="container">
-                 <div className="video">
+                 <div className="video unselectable">
                      <iframe type="text/html" width="100%" height="100%" title="player" id="videoplayer" 
                         allow='autoplay'
                         src={enterCount>leaveCount? "https://www.youtube.com/embed/zaT15m1dfmY?&loop=1&controls=0&autoplay=1" :
