@@ -60,6 +60,7 @@ h5{
     text-decoration: none;
     background-color: red;
     border-radius: 0px 0px 6px 6px;
+
 }
 
 .box-end:hover > .box-inner:hover >.cart-button{
@@ -77,14 +78,18 @@ h5{
     .box-end> .box-inner{
         height: 60px;
         display:contents;
+        margin-bottom: 10px;
     }
 
     .cart-button{
-    opacity: 1;
-    width: 100%;
-    color:white;
-    text-decoration: none;
-    background-color: red;
-    border-radius: 0px 0px 6px 6px;
+        display: block;
+        opacity: 1;
+        color:white;
+        text-decoration: none;
+        background-color: transparent;
+        border-radius: 0px 0px 6px 6px;
+    }
+    .cart-button >p{
+       color:red;
     }
 }
