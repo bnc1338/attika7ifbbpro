@@ -15,7 +15,7 @@ class ProductComponent extends Component {
               <div className='box-inner'>
                 <p>{this.props.Description}</p>
                 <div className='cart-button'>
-                  <p>ADD TO CART</p>
+                  <p className='unselectable'>ADD TO CART</p>
                 </div>
               </div> 
             </div>

@@ -19,7 +19,7 @@ class Products extends Component {
           <div className="container-products">
                 {
                    PRODUCTS && PRODUCTS.map((item,i)=>(
-                      <div className='product-div unselectable' key={item.Id}><ProductComponent Id={item.Id} Title={item.Titile} Price={item.Price} Description={item.Description} ImageSource={item.Image}/></div>
+                      <div className='product-div' key={item.Id}><ProductComponent Id={item.Id} Title={item.Titile} Price={item.Price} Description={item.Description} ImageSource={item.Image}/></div>
                     ))
                  }
             </div> 

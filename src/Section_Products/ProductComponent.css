@@ -5,9 +5,8 @@
     border: 1px solid black;
     width: 200px;
     height: 300px;
-    margin:20px;
-    border-radius: 10px;
-    border: 5px solid white;
+    margin: 20px;
+    border: 1px solid white;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,55 +15,48 @@
 }
 
 .box-end{
-    height: 20px;
     width: 100%;
+    max-height: 20px;
     background-color: white;
     color:black;
-    font-weight: 600;
     text-transform: uppercase;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
-    transition: ease 0.1s;  
+    align-items: flex-end;
     flex-wrap: wrap;
     cursor: pointer;
+    transition: max-height 0.2s ease-in-out;
+    overflow: hidden;
 }
 
-h5{
-    position: static;
-    margin-top:4px;
-}
-
-.box-end:hover {
-    height: 65px;
+.box-end>h5{
+    font-size: 16px;
+    margin-bottom: 5px;
 }
 
 .box-inner{
     font-weight: 100;
     font-size: 13px;
-    display:none;
 }
 
-.box-end:hover > .box-inner{
-    height: 60px;
+.box-end > .box-inner{
     display: flex;
     flex-direction: column;
-    margin-bottom:50px;
+}
+
+.box-end:hover{
+    max-height: 500px;
+    transition: max-height 0.25s ease-in;
 }
 
 .cart-button{
-    opacity: 0;
-    transition: opacity 0.15s ease;
     width: 100%;
     color:white;
     text-decoration: none;
     background-color: red;
-    border-radius: 0px 0px 6px 6px;
-
-}
-
-.box-end:hover > .box-inner:hover >.cart-button{
-   opacity: 1;
+    font-weight: 600;
+    margin-top:4px;
+    font-size: 15px;
 }
 
 @media (max-width:700px) {
@@ -72,24 +64,20 @@ h5{
         width: 180px;
         height: 290px;
     }
+
     .box-end{
-        height: 65px;
+        max-height: 500px;
+        visibility: visible;
     }
-    .box-end> .box-inner{
-        height: 60px;
-        display:contents;
-        margin-bottom: 10px;
+
+    .box-end > .box-inner{
+        height: auto;
+        display: contents;
+        visibility: visible;
     }
 
     .cart-button{
-        display: block;
-        opacity: 1;
         color:white;
         text-decoration: none;
-        background-color: transparent;
-        border-radius: 0px 0px 6px 6px;
-    }
-    .cart-button >p{
-       color:red;
     }
 }
