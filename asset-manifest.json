@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/attika7ifbbpro/static/css/main.fa393fd1.css",
-    "main.js": "/attika7ifbbpro/static/js/main.506755d9.js",
+    "main.css": "/attika7ifbbpro/static/css/main.154ecc93.css",
+    "main.js": "/attika7ifbbpro/static/js/main.96a2510e.js",
     "static/js/787.149827e7.chunk.js": "/attika7ifbbpro/static/js/787.149827e7.chunk.js",
     "static/media/attikaPoz2.png": "/attika7ifbbpro/static/media/attikaPoz2.5284e35ccf4664179756.png",
     "static/media/attikaPoz3.png": "/attika7ifbbpro/static/media/attikaPoz3.05f332b987b0dd4aabca.png",
     "static/media/logo-black-white.png": "/attika7ifbbpro/static/media/logo-black-white.95807acdefcb90ab633e.png",
     "static/media/attikaPoz.jpg": "/attika7ifbbpro/static/media/attikaPoz.977fd37ab5b5bac838be.jpg",
     "static/media/logo-seven.png": "/attika7ifbbpro/static/media/logo-seven.7f7520946e2b9f0bfc85.png",
+    "static/media/logo-seven-white.png": "/attika7ifbbpro/static/media/logo-seven-white.a51175763770a8bddbd2.png",
     "static/media/insta-icon.png": "/attika7ifbbpro/static/media/insta-icon.2bc69f4f482c8cfc67c1.png",
     "index.html": "/attika7ifbbpro/index.html",
-    "main.fa393fd1.css.map": "/attika7ifbbpro/static/css/main.fa393fd1.css.map",
-    "main.506755d9.js.map": "/attika7ifbbpro/static/js/main.506755d9.js.map",
+    "main.154ecc93.css.map": "/attika7ifbbpro/static/css/main.154ecc93.css.map",
+    "main.96a2510e.js.map": "/attika7ifbbpro/static/js/main.96a2510e.js.map",
     "787.149827e7.chunk.js.map": "/attika7ifbbpro/static/js/787.149827e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa393fd1.css",
-    "static/js/main.506755d9.js"
+    "static/css/main.154ecc93.css",
+    "static/js/main.96a2510e.js"
   ]
 }
