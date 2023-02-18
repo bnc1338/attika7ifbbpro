@@ -16,10 +16,10 @@
     background-color: rgba(255, 255, 255, 0.7);
     margin: auto;
     backdrop-filter: blur(3px);
-    transition: background 0.5s;
+    transition: background 0.3s;
     text-transform: uppercase;
     flex-wrap: nowrap;
-    border-bottom: #808080a8 1px solid;
+    /* border-bottom: #808080a8 1px solid; */
 }
 
 .nav-container > .nav-logo{
@@ -71,6 +71,10 @@
     transform: ease-in 1s;
 }
 
+.nav-container > .nav-items > a.nav-item-change-color::before{
+    background-color: white;
+}
+
 .nav-container > .nav-items > a:hover::before{
     width: 100%;
 }
@@ -81,6 +85,10 @@
 
 .nav-container > .nav-toggle{
     display: none;
+}
+
+a.nav-item-change-color{
+    color:white !important;
 }
 
 @media (max-width:700px) {
@@ -100,7 +108,8 @@
         top:60px;
         display: flex;
         flex-direction: column;
-        backdrop-filter: blur(2px);
+        backdrop-filter: blur(5px);
+        color:black !important;
         left: 0;
         width: 100%;
         height: 100%;
@@ -110,6 +119,7 @@
 
     .nav-container > .nav-items a{
         background-color: transparent;
+        color:black !important;
     }
 
     .nav-container > .nav-items > a:hover {
