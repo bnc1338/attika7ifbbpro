@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import "../MainCSS.css";
 
 class Bottom extends Component {
+  
     render() {
       return (
         <div className="Bottom">
@@ -45,13 +46,15 @@ class Bottom extends Component {
       );
     }
   }
-
+  
   const asd = ()=>{
     let mail = document.getElementById("emailInput").value;
+    console.log(mails);
     if(mail.length > 4 && mail.includes("@") && mail.includes(".")){
         if(!mails.includes(mail)){
             mails.push(mail);
             console.log(mail);
+          
         }
     }
     document.getElementById("emailInput").value="";

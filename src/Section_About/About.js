@@ -21,11 +21,8 @@ const About = () =>{
                 <a href="https://www.instagram.com/7.seven_ifbb/"><button className="bn632-hover bn27">Follow</button></a>
                 </div>
                 <div className="image">
-
                 </div>
-
-                <div className="glowing-circle">
-                    
+                <div className="glowing-circle">    
                 </div>
             </div>
         </div>

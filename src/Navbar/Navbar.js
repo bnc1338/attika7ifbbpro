@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import Image from '../Icons/PinPiros.png'
+import Image2 from '../Icons/PinPiros-2.png';
 import logoSeven from '../Icons/logo-seven.png';
 import "../MainCSS.css";
 import logoSevenWhite from '../Icons/logo-seven-white.png';
@@ -13,15 +14,19 @@ const Navbar = ()=>{
         const navbar = document.getElementById('navArea');
         const scrolly = window.scrollY;
         const navlogo = document.getElementById('nav-logo-img');
+        const cartlogo = document.getElementById('nav-logo-cart');
 
         if(scrolly<=200){
             navbar.style.backgroundColor="rgba(255, 255, 255, 1)";
             navlogo.src=logoSeven;
+            cartlogo.src=Image;
             setIsScrolled(false);
         }
         else{
             navbar.style.backgroundColor="rgba(0, 0, 0, 0.9)";
-            if(window.innerWidth > 700){navlogo.src=logoSevenWhite;
+            if(window.innerWidth > 700){
+                navlogo.src=logoSevenWhite;
+                cartlogo.src=Image2;
             }
             setIsScrolled(true);
         }
@@ -40,7 +45,7 @@ const Navbar = ()=>{
                     <a href='https://bnc1338.github.io/attika7ifbbpro/' className={`${isScrolled ? "nav-item-change-color":""}`}>Contact me!</a>
                 </div>
                 <a href='https://bnc1338.github.io/attika7ifbbpro/'>
-                    <img src={Image} alt="" className='navbar-img'/>
+                    <img id='nav-logo-cart' src={Image} alt="" className='navbar-img'/>
                 </a>
                 <div className={`nav-toggle ${isOpen && "open"}`}
                 onClick={() => { 

@@ -1,6 +1,7 @@
 import img1 from '../Images/attikaPoz.jpg';
 import img2 from '../Images/attikaPoz3.png';
 import img3 from '../Images/attikaPoz2.png';
+import img4 from '../Images/attikaPoz4.png';
 
 const PRODS = [
     {
@@ -23,6 +24,14 @@ const PRODS = [
         "Description":"Személyre szabott edzésterv",
         "Price": 29.99,
         "Image": img2
+    }
+    ,
+    {
+        "Id": 2,
+        "Titile": "Fitness3",
+        "Description":"Személyre szabott edzésterv",
+        "Price": 29.99,
+        "Image": img4
     }
     
 ];
