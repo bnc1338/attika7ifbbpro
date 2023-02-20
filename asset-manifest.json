@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/attika7ifbbpro/static/css/main.154ecc93.css",
-    "main.js": "/attika7ifbbpro/static/js/main.8a48cad8.js",
+    "main.css": "/attika7ifbbpro/static/css/main.7a318cd8.css",
+    "main.js": "/attika7ifbbpro/static/js/main.ef489dc7.js",
     "static/js/787.149827e7.chunk.js": "/attika7ifbbpro/static/js/787.149827e7.chunk.js",
     "static/media/attikaPoz2.png": "/attika7ifbbpro/static/media/attikaPoz2.5284e35ccf4664179756.png",
     "static/media/attikaPoz3.png": "/attika7ifbbpro/static/media/attikaPoz3.05f332b987b0dd4aabca.png",
@@ -12,12 +12,12 @@
     "static/media/logo-seven-white.png": "/attika7ifbbpro/static/media/logo-seven-white.a51175763770a8bddbd2.png",
     "static/media/insta-icon.png": "/attika7ifbbpro/static/media/insta-icon.2bc69f4f482c8cfc67c1.png",
     "index.html": "/attika7ifbbpro/index.html",
-    "main.154ecc93.css.map": "/attika7ifbbpro/static/css/main.154ecc93.css.map",
-    "main.8a48cad8.js.map": "/attika7ifbbpro/static/js/main.8a48cad8.js.map",
+    "main.7a318cd8.css.map": "/attika7ifbbpro/static/css/main.7a318cd8.css.map",
+    "main.ef489dc7.js.map": "/attika7ifbbpro/static/js/main.ef489dc7.js.map",
     "787.149827e7.chunk.js.map": "/attika7ifbbpro/static/js/787.149827e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.154ecc93.css",
-    "static/js/main.8a48cad8.js"
+    "static/css/main.7a318cd8.css",
+    "static/js/main.ef489dc7.js"
   ]
 }
