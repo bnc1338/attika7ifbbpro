@@ -26,24 +26,24 @@
     margin-top: 270px;
 }
 
-.content > .text > p{
+.About > .content > .text > p{
     text-decoration: none;
     font-weight:600;
-    font-size: 25px;
+    font-size: 45px;
     color: #F5F7F7;
     text-align: center;
     text-shadow: 1px 1px 2px pink;
+    transition: ease 1s;
 }
 
 .content > .text2 > p{
     text-decoration: none;
     font-weight:100;
-    font-size: 15px;
+    font-size: 18px;
     color: #F5F7F7;
     text-align: center;
-
+    transition: ease 1s;
 }
-
 
  /* BUTTON */
 .bn632-hover {
@@ -88,3 +88,22 @@
   }
 
   /* BUTTON END */
+  @media (max-width:1000px) {
+    .About > .content > .text > p{
+      font-size: 30px !important;
+    }
+    .content > .text2 > p{
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width:700px){
+    .About > .content > .text > p{
+      font-size: 25px !important;
+    }
+    .content > .text2 > p{
+      font-size: 14px;
+    }
+  }
+
+  

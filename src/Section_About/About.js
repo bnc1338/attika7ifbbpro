@@ -7,11 +7,11 @@ const About = () =>{
         <div className="About">
             <div className="content">
                 <div className="text unselectable">
-                    <p> Attika vagyok a hegyről,
+                    <p> Lorem ipsum dolor sit amet, 
                     </p>
-                    <p> Attika vagyok a hegyről, beverem egyből
+                    <p> consectetur adipiscing vel neque eu dolor 
                     </p>
-                    <p> Attika vagyok a hegyről,
+                    <p> Suspendisse suscipit 
                     </p>
                 </div>
                 <div className="text2">

@@ -14,7 +14,7 @@ class Products extends Component {
             Reach your fitness goals!
           </h1>
           <h3 className='unselectable'>
-          With my deep knowledge
+          With My Deep Knowledge
           </h3>
           <div className="container-products">
                 {

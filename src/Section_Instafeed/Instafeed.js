@@ -1,46 +1,20 @@
 import React, { useState, useEffect, useRef } from 'react'
-import axios from 'axios'
-import Feed from './Feed'
-
-import './instaFeeds.css'
+import InstagramFeed  from 'react-ig-feed'
+import 'react-ig-feed/dist/index.css'
+import './Instafeed.css';
 
 const InstaFeed = ({token, ...props}) => {
-    const [feeds, setFeedsData] = useState([])
-    //use useRef to store the latest value of the prop without firing the effect
-    const tokenProp = useRef(token);
-    tokenProp.current = token;
-
-    useEffect(() => {
-        // this is to avoid memory leaks
-        const abortController = new AbortController();
-
-        async function fetchInstagramPost () {
-          try{
-            axios
-                .get(`https://graph.instagram.com/attikaaa1996/media?fields=id,media_type,media_url,caption&limit=${props.limit}&access_token=${props.token}`)
-                .then((resp) => {
-                    setFeedsData(resp.data.data)
-                })
-          } catch (err) {
-              console.log('error', err)
-          }
-        }
-        
-        // manually call the fecth function 
-        fetchInstagramPost();
-  
-        return () => {
-            // cancel pending fetch request on component unmount
-            abortController.abort(); 
-        };
-    }, [props.limit])
-
     return (
-        <div className="Instafeed">
-            {feeds.map((feed) => (
-                <Feed key={feed.id} feed={feed} />
-            ))}
-        </div>
+    <div className='InstaFeed'>
+        <div className='feed-container'>
+            <p>Don't Miss Out</p>
+            <div className='carousel'>
+                <InstagramFeed token="IGQVJYUC1EZAnRKejdiS215aElORnkxcUFoUlBKN1NqSWc3cUEtdEY2YW1EcTI3N2xoWHlHckZAfOU1QZAzBOX1otTEpXVDNYVHlsM0VRUkc3R0ZAUdGF5a2pwbDROYk9Del9rWVNpSnNycUVTeTJUbXVJbAZDZD"  
+                    counter="10"/>
+            </div>
+            <p>My Recent Instagram Content</p>
+        </div> 
+    </div>   
     );
 }
 
