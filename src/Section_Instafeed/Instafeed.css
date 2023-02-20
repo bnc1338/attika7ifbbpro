@@ -28,22 +28,13 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     width: 100vw;
-    overflow: hidden;
-    position: relative;
-
 }
 
 /* block */
 ._wPDyp{ 
-    max-width: 250px;
-    margin:3px;
+    max-width: 200px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5), 0 0 5px 0 rgba(0, 0, 0, 0.59);
 }
-
-@keyframes slideshow {
-    0%    { left: 10%; }
-    100%  { left: -250%; }
-  }
 
   @media (max-width:700px) {
     ._2R-kh{

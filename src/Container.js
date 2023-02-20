@@ -12,7 +12,7 @@ const Container = ()=>{
             <About />
             <Video />
             <Products />
-            <InstaFeed token={'IGQVJYUC1EZAnRKejdiS215aElORnkxcUFoUlBKN1NqSWc3cUEtdEY2YW1EcTI3N2xoWHlHckZAfOU1QZAzBOX1otTEpXVDNYVHlsM0VRUkc3R0ZAUdGF5a2pwbDROYk9Del9rWVNpSnNycUVTeTJUbXVJbAZDZD'} limit={6}/>
+            
             <Bottom />      
         </div>
     );
